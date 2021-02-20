@@ -73,6 +73,10 @@ export default {
       return files.map(file => file.path === '/index' ? '/' : file.path)
     }
   },
+  server: {     
+    port: process.env.PORT || 8000,
+    host: '0.0.0.0',  
+  },
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
   }
