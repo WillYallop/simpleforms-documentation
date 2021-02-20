@@ -3,16 +3,28 @@ title: Getting started
 description: 'Empower your NuxtJS application with @nuxt/content module: write in a content/ directory and fetch your Markdown, JSON, YAML and CSV files through a MongoDB like API, acting as a Git-based Headless CMS.'
 ---
 
-Empower your NuxtJS application with `@nuxtjs/content` module: write in a `content/` directory and fetch your Markdown, JSON, YAML and CSV files through a MongoDB like API, acting as a **Git-based Headless CMS**.
+# Introduction
 
-## Writing content
+Take your forms to the next level with Simpleforms.js: a powerful, lightweight and fully customisable library to get your forms validated and sanitised with ease through the use of existing validation methods and your custom ones.
 
-Learn how to write your `content/`, supporting Markdown, YAML, CSV and JSON: https://content.nuxtjs.org/writing.
+Simpleforms.js is aimed towards frontend developers who are tired of rewriting the same old logic to handle form validation. This library doesn't come with any CSS and does not insert any HTML into your forms, so you have the most flexible frontend developemnt experience.
 
-## Fetching content
+## Examples
 
-Learn how to fetch your content with `$content`: https://content.nuxtjs.org/fetching.
+Learn how to use Simpleforms.js with our range of demos, which you can find [here](/demos).
 
-## Displaying content
+**Insert Image Here**
 
-Learn how to display your Markdown content with the `<nuxt-content>` component directly in your template: https://content.nuxtjs.org/displaying.
+## Features
+
+- ✔️ Multiple input validation methods
+- ✔️ Add custom input validation methods
+- ✔️ Real time validation
+- ✔️ Textarea length indicator
+- ✔️ Toggle password visibility
+- ✔️ Password strength indicator
+- ✔️ Extensive config
+- ✔️ Checkbox support
+
+## Projects using us
+
