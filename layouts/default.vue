@@ -197,30 +197,51 @@ pre code::selection {
 
 /* Results */
 .resultsContainer {
-    background-color: var(--background-2);
-    padding: 10px;
-    border-radius: 10px;
-    margin-top: 10px;
-    display: none;
+  background-color: var(--background-2);
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+  display: none;
 }
 .resultsContainer.active {
-    display: block;
+  display: block;
 }
 .verificationPassedP {
-    color: var(--title-text);
-    padding: 0 10px;
+  color: var(--title-text);
+  padding: 0 10px;
 }
 .verificationPassedP span {
-    font-weight: bold;
-    color: var(--accent-1-light);
+  font-weight: bold;
+  color: var(--accent-1-light);
 }
 .jsonCon {
-    background-color: var(--background-1);
-    padding: 10px;
-    border-radius: 10px;
+  background-color: var(--background-1);
+  padding: 10px;
+  border-radius: 10px;
 }
 .jsonCon p {
-    color: var(--body-text);
-    margin-bottom: 0 !important;
+  color: var(--body-text);
+  margin-bottom: 0 !important;
+}
+
+/* Form */
+
+table {
+  background-color: var(--background-2);
+  border-spacing: 0;
+  border: 1px solid #5B5A6A;
+  color: var(--title-text);
+}
+tbody {
+  color: rgb(224, 224, 224);
+}
+tr:nth-child(even) {
+  background-color: #25283E;
+}
+th, td {
+  text-align: left;
+  padding: 4px;
+  border: 1px solid #5B5A6A;
+  padding: 10px;
 }
 </style>

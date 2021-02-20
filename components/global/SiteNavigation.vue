@@ -14,7 +14,6 @@
                     <li><nuxt-link to="/guide/setup">Setup</nuxt-link></li>
                     <li><nuxt-link to="/guide/validation-methods">Validation Methods</nuxt-link></li>
                     <li><nuxt-link to="/guide/config">Config</nuxt-link></li>
-                    <li><nuxt-link to="/guide/functions">Function</nuxt-link></li>
                 </ul>
             </li>
             <li  class="sectLi">

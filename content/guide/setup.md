@@ -45,10 +45,10 @@ Each name field on the inputs bellow corresponds to a unique validation method. 
 
 ```html
 <form id="myForm">
-    <!-- Name Verification-->
+    <!-- Name validation-->
     <label for="firstNameInp">First Name</label>
     <input id="firstNameInp" type="text" name="name_sf">
-    <!-- Email Address Verification -->
+    <!-- Email Address validation -->
     <label for="emailInp">Email Address</label>
     <input id="emailInp" type="text" name="email_sf">
     <!-- Submit Button -->

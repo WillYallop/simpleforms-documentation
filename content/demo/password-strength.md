@@ -14,13 +14,13 @@ description: 'Empower your NuxtJS application with @nuxt/content module: write i
 This demo makes use of the password strength feature. If enabled, and you have the HTML in place, Simpleforms.js will swap between classes depending on the correct password strength.
 
 <form id="psForm" class="formCon">
-    <!-- Name Verification--> 
+    <!-- Name validation--> 
     <label for="psFirstNameInp">First Name</label>
     <input class="inputStyle" id="psFirstNameInp" type="text" name="name_sf">
-    <!-- Email Address Verification -->
+    <!-- Email Address validation -->
     <label for="psEmailInp">Email Address</label>
     <input class="inputStyle"  id="psEmailInp" type="text" name="email_sf">
-    <!-- Password Verification -->
+    <!-- Password validation -->
     <div class="inputWrapper">
         <label for="psPasswordInp">Password</label>
         <input class="inputStyle" id="psPasswordInp" type="password" name="password_sf"> 
@@ -48,13 +48,13 @@ This demo makes use of the password strength feature. If enabled, and you have t
 
 ```html
 <form id="psForm" class="formCon">
-    <!-- Name Verification--> 
+    <!-- Name validation--> 
     <label for="psFirstNameInp">First Name</label>
     <input id="psFirstNameInp" type="text" name="name_sf">
-    <!-- Email Address Verification -->
+    <!-- Email Address validation -->
     <label for="psEmailInp">Email Address</label>
     <input id="psEmailInp" type="text" name="email_sf">
-    <!-- Password Verification -->
+    <!-- Password validation -->
     <div class="inputWrapper">
         <label for="psPasswordInp">Password</label>
         <input id="psPasswordInp" type="password" name="password_sf"> 
@@ -99,4 +99,4 @@ myForm.addEventListener( "submit", function(event) {
 
 ## Limitations
 
-Please keep in mind this feature is limited to one strength indicator per form, and only works on the password_sf verification method. Also a weak password will also fail, this is intentional, however if people would like the option to make it passable then please let us know by contact the [author](https://williamyallop.com/contact)!
+Please keep in mind this feature is limited to one strength indicator per form, and only works on the password_sf validation method. Also a weak password will also fail, this is intentional, however if people would like the option to make it passable then please let us know by contact the [author](https://williamyallop.com/contact)!

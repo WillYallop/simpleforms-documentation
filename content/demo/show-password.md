@@ -14,13 +14,13 @@ description: 'Empower your NuxtJS application with @nuxt/content module: write i
 This demo makes use of the toggle password visibility feature. If enabled, and you have the HTML in place, when clicking a predefined button, the password and password repeat input (if it exists), will swap from type password to text.
 
 <form id="spForm" class="formCon">
-    <!-- Name Verification--> 
+    <!-- Name validation--> 
     <label for="spFirstNameInp">First Name</label>
     <input class="inputStyle" id="spFirstNameInp" type="text" name="name_sf">
-    <!-- Email Address Verification -->
+    <!-- Email Address validation -->
     <label for="spEmailInp">Email Address</label>
     <input class="inputStyle"  id="spEmailInp" type="text" name="email_sf">
-    <!-- Password Verification -->
+    <!-- Password validation -->
     <div class="inputWrapper">
         <label for="spPasswordInp">Password</label>
         <input class="inputStyle passwordInp" id="spPasswordInp" type="password" name="password_sf"> 
@@ -29,7 +29,7 @@ This demo makes use of the toggle password visibility feature. If enabled, and y
             <dynamic-image class="closedEyeImg" filename="eye-slash-solid.svg"></dynamic-image>
         </button>
     </div>
-    <!-- Password Repeat Verification -->
+    <!-- Password Repeat validation -->
     <label for="spPasswordRepeatInp">Password Repeat</label>
     <input class="inputStyle" id="spPasswordRepeatInp" type="password" name="passwordRepeat_sf">
     <!-- Submit Button -->
@@ -50,13 +50,13 @@ This demo makes use of the toggle password visibility feature. If enabled, and y
 
 ```html
 <form id="spForm" class="formCon">
-    <!-- Name Verification--> 
+    <!-- Name validation--> 
     <label for="spFirstNameInp">First Name</label>
     <input id="spFirstNameInp" type="text" name="name_sf">
-    <!-- Email Address Verification -->
+    <!-- Email Address validation -->
     <label for="spEmailInp">Email Address</label>
     <input id="spEmailInp" type="text" name="email_sf">
-    <!-- Password Verification -->
+    <!-- Password validation -->
     <div class="inputWrapper">
         <label for="spPasswordInp">Password</label>
         <input id="spPasswordInp" type="password" name="password_sf"> 
@@ -65,7 +65,7 @@ This demo makes use of the toggle password visibility feature. If enabled, and y
             <dynamic-image class="closedEyeImg" filename="eye-slash-solid.svg"></dynamic-image>
         </button>
     </div>
-    <!-- Password Repeat Verification -->
+    <!-- Password Repeat validation -->
     <label for="spPasswordRepeatInp">Password Repeat</label>
     <input id="spPasswordRepeatInp" type="password" name="passwordRepeat_sf">
     <!-- Submit Button -->
@@ -103,4 +103,4 @@ myForm.addEventListener( "submit", function(event) {
 
 ## Limitations
 
-Please keep in mind this feature is limited to one toggle button per form, and only works for the password and password report verification methods. We plan on fixing these limitations in the future.
+Please keep in mind this feature is limited to one toggle button per form, and only works for the password and password report validation methods. We plan on fixing these limitations in the future.

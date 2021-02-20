@@ -28,3 +28,5 @@ Learn how to use Simpleforms.js with our range of demos, which you can find [her
 
 ## Projects using us
 
+We will be updating this soon, if you want to get your site listed here contact the [author](https://williamyallop.com).
+
