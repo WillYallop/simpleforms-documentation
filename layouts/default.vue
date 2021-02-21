@@ -1,7 +1,11 @@
 <template>
   <div class="siteCon">
 
-    <SiteHeader/>
+    <SiteHeader
+    @show-nav="toggleNavigation"/>
+
+    <MobileNavigaiton :class="{ 'active' : showNav }"
+    @toggleNav="toggleNavigation"/>
     
     <div class="pageCon">
       <div class="wrapper">
@@ -16,6 +20,21 @@
     
   </div>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      showNav: false
+    }
+  },
+  methods: {
+    toggleNavigation() {
+      this.showNav = !this.showNav
+    }
+  }
+}
+</script>
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
@@ -71,6 +90,8 @@ textarea {font-family: 'Lato', sans-serif !important;}
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .pageCon .wrapper {
   display: flex;
@@ -243,5 +264,17 @@ th, td {
   padding: 4px;
   border: 1px solid #5B5A6A;
   padding: 10px;
+}
+
+.tableCon {
+  max-width: 100%;
+  overflow-x: scroll;
+
+}
+
+
+@media only screen and (max-width: 900px) {
+  .navigationCon {display: none;}
+  .pageContent {width: 100%; border-right: 0; padding: 30px 0;}
 }
 </style>

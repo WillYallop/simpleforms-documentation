@@ -12,6 +12,8 @@ description: 'Empower your NuxtJS application with @nuxt/content module: write i
 
 Here are all of the current Validation Methods types. To use them on an input simply put the method name as the name value on the input or textarea. This will allow Simpleforms.js to determine what method you want to validate with, and as an inverse: what inputs you dont want validating.
 
+<div class="tableCon>
+
 | Methods           | Validation                                                       |
 |-------------------|------------------------------------------------------------------|
 | email_sf          |  `Min Characters: 5`<br> `Max Characters: 100`<br> Must match email regex. |
@@ -22,6 +24,8 @@ Here are all of the current Validation Methods types. To use them on an input si
 | password_sf       | `Min Characters: 4`<br> `Max Characters: 20`<br> Medium strength password must include 8 characters one of which being a number or capital. <br> Strong strength passowrd must include 8 characters one being a capital, number and special character `(!@#$%^&*)`. |
 | passwordRepeat_sf | Must match password input. |
 | checkbox_sf | Must be true. |
+
+</div>
 
 ## Custom Validation
 
