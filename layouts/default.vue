@@ -93,13 +93,13 @@ h3 {color: var(--title-text);}
 h4 {color: var(--title-text);}
 a {color: var(--accent-1-light);}
 
-.nuxt-content-container h1 {margin-bottom: 20px;}
-.nuxt-content-container h2 {margin-bottom: 8px; border-bottom: 1px solid var(--border);padding-bottom: 8px;margin-top: 15px;}
-.nuxt-content-container p {margin-bottom: 10px;}
-.nuxt-content-container ul {
+.pageContent h1 {margin-bottom: 20px;}
+.pageContent h2 {margin-bottom: 8px; border-bottom: 1px solid var(--border);padding-bottom: 8px;margin-top: 15px;}
+.pageContent p {margin-bottom: 10px;}
+.pageContent ul {
   padding: 0;
 }
-.nuxt-content h2:before, .nuxt-content h3:before {
+h2:before, h3:before {
     display: block;
     content: " ";
     margin-top: -80px;
@@ -107,7 +107,7 @@ a {color: var(--accent-1-light);}
     visibility: hidden;
     pointer-events: none;
 }
-.nuxt-content-container ul li {
+.pageContent ul li {
   list-style-type: none;
   color: var(--body-text);
   padding: 5px 0;

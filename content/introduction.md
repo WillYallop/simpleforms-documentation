@@ -13,8 +13,6 @@ Simpleforms.js is aimed towards frontend developers who are tired of rewriting t
 
 Learn how to use Simpleforms.js with our range of demos, which you can find [here](/demos).
 
-**Insert Image Here**
-
 ## Features
 
 - ✔️ Multiple input validation methods
