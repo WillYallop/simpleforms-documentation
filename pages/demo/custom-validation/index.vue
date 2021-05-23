@@ -9,7 +9,7 @@ import simpleForms from 'simpleforms.js';
 
 export default {
     async asyncData({ $content }) {
-        const customValDemo = await $content('/demo/custom-validation').fetch()
+        const customValDemo = await $content('demo/custom-validation').fetch()
         return { customValDemo }
     },
     mounted() {
