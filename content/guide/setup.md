@@ -84,4 +84,4 @@ myForm.addEventListener( "submit", function(event) {
 });
 ```
 
-For more exmaples on how to use Simpleforms.js features: checkout our [demos](/demo/counter) for a variety of setups.
+For more exmaples on how to use Simpleforms.js features: checkout our [demos](/demo/textarea-counter) for a variety of setups.

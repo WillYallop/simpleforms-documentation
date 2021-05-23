@@ -9,7 +9,7 @@ import simpleForms from 'simpleforms.js';
 
 export default {
     async asyncData({ $content }) {
-        const counterDemo = await $content('/demo/counter').fetch()
+        const counterDemo = await $content('/demo/textarea-counter').fetch()
         return { counterDemo }
     },
     mounted() {

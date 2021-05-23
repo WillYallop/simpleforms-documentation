@@ -19,7 +19,7 @@
             <li  class="sectLi">
                 <p class="sectionTitleP">DEMOS</p>
                 <ul>
-                    <li><nuxt-link @click.native="$emit('toggleNav')" to="/demo/counter">Textarea Counter</nuxt-link></li>
+                    <li><nuxt-link @click.native="$emit('toggleNav')" to="/demo/textarea-counter">Textarea Counter</nuxt-link></li>
                     <li><nuxt-link @click.native="$emit('toggleNav')" to="/demo/show-password">Show Password</nuxt-link></li>
                     <li><nuxt-link @click.native="$emit('toggleNav')" to="/demo/password-strength">Password Strength</nuxt-link></li>
                     <li><nuxt-link  @click.native="$emit('toggleNav')" to="/demo/custom-validation">Custom Validation</nuxt-link></li>
