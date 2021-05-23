@@ -1,6 +1,6 @@
 ---
-title: Counter
-description: 'Empower your NuxtJS application with @nuxt/content module: write in a content/ directory and fetch your Markdown, JSON, YAML and CSV files through a MongoDB like API, acting as a Git-based Headless CMS.'
+title: Password Strength
+description: 'This demo makes use of the password strength feature. If enabled, and you have the HTML in place, Simpleforms.js will swap between classes depending on the correct password strength.'
 ---
 
 # Password Strength Demo

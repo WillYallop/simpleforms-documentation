@@ -1,6 +1,6 @@
 ---
-title: Counter
-description: 'Empower your NuxtJS application with @nuxt/content module: write in a content/ directory and fetch your Markdown, JSON, YAML and CSV files through a MongoDB like API, acting as a Git-based Headless CMS.'
+title: Textarea Counter
+description: 'Here is demo making use of the textarea counter feature. This will take character count of a a specific textarea, and the max length of that validation type, then place the data inside an element via a specified id.'
 ---
 
 # Textarea Counter Demo

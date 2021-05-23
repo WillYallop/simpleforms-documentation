@@ -1,6 +1,6 @@
 ---
-title: Counter
-description: 'Empower your NuxtJS application with @nuxt/content module: write in a content/ directory and fetch your Markdown, JSON, YAML and CSV files through a MongoDB like API, acting as a Git-based Headless CMS.'
+title: Custom Validation
+description: 'This demo makes use of the custom validation method feature. This example, (as useless as it is) only allows you to input 4 question marks. For more info on validation methods.'
 ---
 
 # Custom Validation Demo
